@@ -64,7 +64,7 @@ PRODUCT_PACKAGES += vendor.qti.hardware.bluetooth_dun-V1.0-java
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl.recovery \
-    bootctrl.kona.recovery
+    bootctrl.lahaina.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
@@ -123,9 +123,9 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,device/asus/sm8250-common/prebuilt/product,product) \
-    $(call find-copy-subdir-files,*,device/asus/sm8250-common/prebuilt/system,system) \
-    $(call find-copy-subdir-files,*,device/asus/sm8250-common/prebuilt/system_ext,system_ext)
+    $(call find-copy-subdir-files,*,device/asus/sm8350-common/prebuilt/product,product) \
+    $(call find-copy-subdir-files,*,device/asus/sm8350-common/prebuilt/system,system) \
+    $(call find-copy-subdir-files,*,device/asus/sm8350-common/prebuilt/system_ext,system_ext)
 
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
